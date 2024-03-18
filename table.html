@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style >
+    
+            img {
+                 position: absolute;
+                 margin: 0px 0px;
+               width: 100%;
+               height: 600px;
+               opacity: 0.5;
+               z-index: -1;
+               }
+        
+        .TABLE{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+            
+        }
+        
+        
+        table{
+            width: 50%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            border: 2px solid black;
+        }
+
+        th,td{
+            padding: 10px;
+            text-align: :center;
+            border-bottom: 1px solid black;
+        }
+
+        th{
+            background-color: grey;
+
+        }
+
+    tbody tr:nth-child(even){
+background-color: #f2f2f2;
+    }
+
+    tbody tr:hover{
+        background-color: red;
+    }
+   
+    </style>
+</head>
+
+
+<body>
+    <img src="black.jpg" alt="">
+    <div class="TABLE">
+    <table>
+        <THEAD>
+            <tr>
+                <th>Events</th>
+                <th>Timing</th>
+                <th>Date</th>
+                <th>venue</th>
+            </tr>
+
+            <tr>
+                <td>Paintball</td>
+                <td>10:00 am</td>
+                <td>18/03/2024</td>
+                <td>Dhoom Ground</td>
+
+            </tr>
+
+            <tr>
+                <td>Dance competiton</td>
+                <td>10:30 am</td>
+                <td>19/03/2024</td>
+                <td>Central auditorium</td>
+            </tr>
+
+            <tr>
+                <td>show your style</td>
+                <td>6:00pm</td>
+                <td>20/03/2024</td>
+                <td>Cricket ground</td>
+            </tr>
+
+            <tr>
+                <td>Concert</td>
+                <td>6:00pm onwards</td>
+                <td>21/03/24</td>
+                <td>Dhoom ground</td>
+            </tr>
+        </THEAD>
+    </table>
+</div>
+    
+</body>
+</html>
